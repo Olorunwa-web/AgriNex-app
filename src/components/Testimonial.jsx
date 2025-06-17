@@ -1,0 +1,20 @@
+import React from 'react'
+import Swipes2 from '../components/Swipes2';
+
+
+
+const Testimonial = () => {
+    return (
+        <>
+             <section className = 'my-19'>
+                <p className = 'text-center font-normal text-[#808080] text-[1rem] md:text-[1rem]  mb-1'>WHAT THEY SAY</p>
+                <h1 className = 'text-center text-[1.4rem] md:text-[1.7rem] lg:text-[2rem] font-bold mb-4 text-[#0D0D0D]'>Testimonial</h1>
+                <section>
+                    <Swipes2/>
+                </section>
+            </section>
+        </>
+    )
+}
+
+export default Testimonial
