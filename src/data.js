@@ -39,6 +39,13 @@ import image27 from './assets/unsplash_xDwEa2kaeJA.png';
 import image28 from './assets/unsplash__yk6Ks0fmCo.png';
 import image29 from './assets/unsplash_wiZxbn6rix4.png';
 
+
+// =================================================================
+
+import image30 from './assets/icon-park-outline_data-file.svg';
+import image31 from './assets/pepicons-pop_chain.svg';
+import image32 from './assets/tabler_ai.svg';
+
 export const nav = [
     {
         id: 1,
@@ -366,5 +373,56 @@ export const faqaccords = [
     id: 6,
     title: "What are AgriNex's core values?",
     content: 'AgriNex is a fast-growing technology-driven agriculture company, passionate about ensuring food security. The company does this by linking smallholder farmers to capital, data-driven best practices, and access to local and global markets for their commodities.',
+  },
+]
+
+
+
+
+export const aboutsec = [
+  {
+    id: 1,
+    image: image19,
+    number: '1,500k',
+    board: 'Agricultural products',
+  },
+  {
+    id: 2,
+    image: image20,
+    number: '300k',
+    board: 'Trust by clients'
+  },
+]
+
+export const aboutswipes = [
+  {
+    id: 1,
+    image: image30,
+    title: 'Data & Analytics:',
+    word: 'Real-time data to improve productivity.',
+  },
+  {
+    id: 2,
+    image: image31,
+    title: 'Supply Chain Integration:',
+    word: 'Seamless logistics for farm-to-market efficiency.',
+  },
+  {
+    id: 3,
+    image: image32,
+    title: 'Smart Farming Solutions:',
+    word: 'AI driven insights for crop monitoring & farm management.',
+  },
+  {
+    id: 4,
+    image: image30,
+    title: 'Market Access:',
+    word: 'Connect farmer directly with buyers & agribusinesses.',
+  },
+  {
+    id: 5,
+    image: image31,
+    title: 'Community & Support:',
+    word: 'A network for knowledge sharing and expert advice.',
   },
 ]

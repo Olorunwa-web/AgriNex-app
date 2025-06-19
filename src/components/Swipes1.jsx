@@ -83,7 +83,6 @@ const Swipes1 = () => {
                                )
                            })}
                 </Swiper>
-
             </section>
         </>
     )
