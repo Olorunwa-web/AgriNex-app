@@ -67,8 +67,8 @@ const Nav = () => {
                        <Link to = '/auth/signup'><button className = 'font-medium text-sm text-[#FFFFFF] bg-[#4CAF50] rounded-[56px] py-[8px] px-[14px] '>Sign Up</button></Link>
                    </div>
                    <div className = 'md:hidden'>
-                      <div onClick={() => setIsOpen(!isOpen)} className = ' ' >
-                          <img src= {agric} alt="" className = 'w-[37px] transform scale-x-[-1] scale-y-[-1] ' />
+                      <div onClick={() => setIsOpen(!isOpen)} className = ' w-full' >
+                          <img src= {agric} alt="" className = 'w-[40px] transform scale-x-[] scale-y-[-1] ' />
                       </div>
                       {/* {isOpen && (
                          <div className="fixed inset-0 z-40 transition-opacity duration-200"></div>
