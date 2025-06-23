@@ -36,7 +36,7 @@ const Whatwedo = () => {
                                   }`} 
                                  >
                                      <div className = 'flex justify-between items-center'>
-                                         <h4 className = 'md:text-[1.3rem] text-[1.2rem] font-normal '>{accrod.title}</h4>
+                                         <h4 className = 'md:text-[1.3rem] lg:text-lg text-[1.2rem] font-medium '>{accrod.title}</h4>
                                          <img src= {arrorwleft} alt=""
                                           className={`transition-transform duration-300 w-[22px] ${
                                             isActive ? ' text-green-600 ' : 'text-gray-500 group-hover:text-green-600'
