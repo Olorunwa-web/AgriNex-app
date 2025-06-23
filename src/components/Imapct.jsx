@@ -16,7 +16,7 @@ const Imapct = () => {
                             <div className = 'w-full flex justify-center lg:justify-start flex-wrap gap-x-[10px] gap-y-[10px] md:gap-x-[14px] md:gap-y-[14px]'>
                                 {impact.map((image) => {
                                     return (
-                                        <div key = {image.id} className = ' w-[28%] md:w-[24%] lg:w-[28%] xl:w-[25%] h-full flex'>
+                                        <div key = {image.id} className = ' w-[28%] md:w-[24%] lg:w-[28%] xl:w-[28%] h-full flex'>
                                             <img src= {image.image} alt="" className = 'w-full object-cover h-full rounded-[18px]'/>
                                         </div>
                                     )
