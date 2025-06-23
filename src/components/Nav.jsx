@@ -115,7 +115,8 @@ const Nav = () => {
                    </div>
                </section>
                    {isOpen && (
-                          <div className = 'md:hidden py-4 flex flex-col pl-6 gap-4'>
+                       <div className = 'py-4 px-6'>
+                          <div className = 'md:hidden flex flex-col  gap-4'>
                               {nav.map((offcanvas) => {
                                  return (
                                      <NavLink 
@@ -131,6 +132,11 @@ const Nav = () => {
                                    )
                                 })}
                             </div>
+                             <div className = ' mt-2 flex flex-col gap-3 px-3 '>
+                                 <Link to = '/auth/signin'><button className = 'font-medium text-base bg-[#FFFFFF]  py-2 w-full'>Sign In</button></Link>
+                                 <Link to = '/auth/signup'><button className = 'font-medium text-base text-[#FFFFFF] bg-[#4CAF50] rounded-full py-2  w-full'>Sign Up</button></Link>
+                             </div>
+                       </div>
                       )}
            </nav>
            <Outlet/>
