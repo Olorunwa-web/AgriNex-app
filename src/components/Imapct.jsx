@@ -29,14 +29,14 @@ const Imapct = () => {
                               <div className = 'w-full flex flex-wrap  md:justify-between gap-y-7 lg:gap-x-5 lg:gap-y-5 xl:gap-x-7 xl:gap-y-13 '>
                                {impacts.map((imp) => {
                                    return (
-                                       <div key = {imp.id} className = 'w-full md:justify-start  md:w-[40%] lg:w-[46%] xl:w-[45%] flex gap-3' >
+                                       <div key = {imp.id} className = 'w-full md:justify-start  md:w-[40%] lg:w-[46%] xl:w-[46%] flex gap-3' >
                                            <div>
                                              <div className = 'w-[39px]'>
                                                 <img src= {imp.image} alt="" className = 'w-full'/>
                                              </div>
                                            </div>
                                            <div className = 'flex flex-col'>
-                                               <h1 className = 'font-semibold text-[1.3rem] md:text-[1.7rem] text-[#3A3A3A] '>{imp.number}</h1>
+                                               <h1 className = 'font-semibold text-[1.3rem] md:text-[1.5rem] text-[#3A3A3A] '>{imp.number}</h1>
                                                <p className = 'font-semibold text-base text-[#808080] '>{imp.board}</p>
                                            </div>
                                        </div>
