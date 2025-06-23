@@ -14,7 +14,7 @@ const Growth = () => {
                              <h1 className = 'text-[1.4rem] md:text-[1.7rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>Grow your Farm Our Financial Supports </h1>
                              <div className = 'flex flex-col gap-4'>
                                  <div className = 'flex items-center gap-3'>
-                                     <div className = 'bg-[#2E6B31] flex justify-center rounded-full items-center  w-[25px] h-[25px] '>
+                                     <div className = 'bg-[#2E6B31] flex justify-center rounded-full items-center  w-[24px] h-[24px] '>
                                          <img src= {mark} alt="" className = 'w-3'/>
                                      </div>
                                      <div>
@@ -22,15 +22,15 @@ const Growth = () => {
                                      </div>
                                  </div>
                                  <div className = 'flex items-center gap-3'>
-                                     <div className = 'bg-[#2E6B31] flex justify-center rounded-full items-center  w-[25px] h-[25px] '>
+                                     <div className = 'bg-[#2E6B31] flex justify-center rounded-full items-center  w-[24px] h-[24px] '>
                                          <img src= {mark} alt="" className = 'w-3'/>
                                      </div>
                                      <div>
-                                         <p className = 'font-normal text-[#353535] text-[1.1rem] md:text-[1.2rem]   lg:text-[1.3rem]'>Government Grant Assistance</p>
+                                         <p className = 'font-normal text-[#353535] text-[1.1rem] md:text-[1.2rem]  lg:text-[1.3rem]'>Government Grant Assistance</p>
                                      </div>
                                  </div>
                                  <div className = 'flex items-center gap-3'>
-                                     <div className = 'bg-[#2E6B31] flex justify-center rounded-full items-center  w-[25px] h-[25px] '>
+                                     <div className = 'bg-[#2E6B31] flex justify-center rounded-full items-center  w-[24px] h-[24px] '>
                                          <img src= {mark} alt="" className = 'w-3'/>
                                      </div>
                                      <div>
