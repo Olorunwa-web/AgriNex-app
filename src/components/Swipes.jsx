@@ -58,8 +58,8 @@ const Swipes = () => {
                 >
                     {aboutswipes.map((swip,index) => {
                         return (
-                            <SwiperSlide key = {swip.id} className = {`p-5 border-[2px] border-[#4CAF50] rounded-[30px]   ${index === 0 ? " xl:ml-14  ml-7" : index === 4 ? " mr-40" : ""}`}>
-                                <div className = 'flex  justify-center items-center'>
+                            <SwiperSlide key = {swip.id} className = {` ${index === 0 ? " xl:ml-14  ml-7" : index === 4 ? " mr-40" : ""}`}>
+                                <div className = 'p-5 border-[2px] border-[#4CAF50] rounded-[30px] h-[175px] flex justify-center items-center'>
                                     <div className = ''>
                                        <div className = 'flex justify-center  '>
                                          <img src= {swip.image} alt="" className = ''/>

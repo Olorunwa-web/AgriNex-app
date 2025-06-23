@@ -5,7 +5,10 @@ import image1 from '../assets/Download free image of Harvesting organic plant sm
 import image2 from '../assets/Un homme africain récolte des légumes_ _ Image générée à base d’IA 1.png';
 import image3 from '../assets/Blog 1.png';
 import image4 from '../assets/Frame 1171279034.png';
-import Swipes from '../components/Swipes'
+import Swipes from '../components/Swipes';
+import image5 from '../assets/Blog 1 (2).png';
+import image6 from '../assets/Farmer Using A Robotic Weed Control System Wallpaper _ Premium AI-generated image 1 (2).png';
+
 
 const aboutimages = [
     {
@@ -123,6 +126,34 @@ const AboutUs = () => {
                    <p className = 'text-center font-normal text-[#808080] text-[1rem] md:text-[1rem]  mb-1'>AGRICULTURE-FOCUSED</p>
                    <h1 className = 'text-center text-[1.4rem] md:text-[1.7rem] lg:text-[2rem] font-bold mb-4 text-[#0D0D0D]'>What We Offer</h1>
                    <Swipes/>
+                </section>
+
+                {/*  */}
+
+                <section className = 'container mx-auto px-4 my-8 md:px-8'>
+                      <p className = 'text-center font-normal text-[#808080] text-[1rem] md:text-[1rem]  mb-1'>INSPIRATION</p>
+                      <div className = 'w-full flex m-0 p-0 flex-col gap-x-10 my-8 md:flex-row'>
+                          <div className = 'w-full h-full flex flex-col md:w-1/2  '>
+                               <div className = 'bg-[#2E6B31] w-full rounded-t-[30px] text-center p-4'>
+                                   <div>
+                                      <h1 className = ''>"Our Mission"</h1>
+                                      <p>Our mission is to make farming more efficient, profitable, and environmentally friendly and revolutionize agriculture by providing farmers with the tools, resources, and market access they need to thrive in a digital world.</p>
+                                   </div>
+                              </div>
+                              <div className = 'w-full h-full'>
+                                <img src= {image5} alt="" className = 'w-full h-full'/>
+                              </div>
+                          </div>
+                          <div className = 'w-full flex flex-col  md:w-1/2'>
+                              <div>
+                                 <h1>"Our Vision"</h1>
+                                 <p>We envision a future where agriculture is tech-driven, sustainable,and accessible to everyone. By bridging between technology and farming. we thrive to create a thriving agricultural ecosystem.</p>
+                              </div>
+                              <div className = 'w-full h-full '>
+                                  <img src= {image6} alt="" className = 'w-full h-full' />
+                              </div>
+                          </div>
+                      </div>
                 </section>
             </section>
         </>

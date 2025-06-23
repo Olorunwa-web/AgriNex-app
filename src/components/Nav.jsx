@@ -53,7 +53,7 @@ const Nav = () => {
                                   <NavLink 
                                    key = {heads.id} to = {heads.path}
                                    className={({ isActive }) =>
-                                   `font-normal text-[16px] ${isActive
+                                   `font-medium text-sm ${isActive
                                      ? " text-[#4CAF50] "
                                      : " text-[#000000]"
                                    }`}
