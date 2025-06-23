@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <>
           <section  className = 'bg-[#2E6B31] pt-10 mt-10'>
-            <section className = 'container mx-auto px-4 md:px-8'>
+            <section className = 'w-11/12 max-w-8xl mx-auto'>
                   <section className = 'flex flex-col md:flex-row justify-between gap-10  border-b-[1.4px] border-[#CCCCCC] py-7'>
                     <div className = 'w-full md:w-[35%] lg:w-[40%] xl:w-[35%]  flex flex-col gap-y-5 md:gap-y-10 borde '>
                         <div className = 'w-[110px]'>

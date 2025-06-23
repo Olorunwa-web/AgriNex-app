@@ -7,7 +7,7 @@ const Growth = () => {
     return (
         <>
             <section className = 'bg-[#E3EDE4] mt-16 py-6'>
-                <section className = 'container mx-auto px-4 md:px-8'>
+                <section className = 'w-11/12 max-w-8xl mx-auto'>
                     <section className = 'flex flex-col items-center justify-between gap-y-7 md:gap-y-4 lg:gap-y-0  md:flex-row w-full'>
                         <div className = 'w-full md:w-[49%] lg:w-[45%] '>
                              <p className = 'font-normal text-[#808080] text-base  mb-1'>FUND YOUR GROWTH</p>

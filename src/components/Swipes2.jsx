@@ -66,7 +66,7 @@ const Swipes2 = () => {
                     >
                         {test.map((tes, index) => {
                             return (
-                                    <SwiperSlide key = {tes.id} className = {` border-1 border-[#0000001A] rounded-[8px] p-5  ${index === 0 ? "ml-8 xl:ml-14" : index === 5 ? " " : " "}`}>
+                                    <SwiperSlide key = {tes.id} className = {` border-1 border-[#0000001A] rounded-[8px] p-5  ${index === 0 ? "ml-7 md:ml-9 xl:ml-17" : index === 5 ? " " : " "}`}>
                                         <div className = ''>
                                             <div>
                                                 <h1 className = 'text-[1.1rem] text-[#0D0D0D] font-semibold'>{tes.title}</h1>

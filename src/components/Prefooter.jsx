@@ -7,7 +7,7 @@ const Prefooter = () => {
     return (
         <>
            <section className = 'py-8'>
-              <section className = 'container mx-auto px-4 md:px-8'>
+              <section className = 'w-11/12 max-w-8xl mx-auto'>
                 <section className ="bg-no-repeat bg-cover  w-full h-full  flex justify-center items-center py-20 md:py- md:py-30 rounded-[52px]"  style={{ backgroundImage: `url(${frame})` }} >
                     <section className = 'flex flex-col gap-6'>
                         <div>

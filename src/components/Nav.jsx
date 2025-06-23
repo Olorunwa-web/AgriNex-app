@@ -12,38 +12,36 @@ import Footer from '../components/Footer';
 const Nav = () => {
 
     const [isOpen, setIsOpen] = useState(false);
-    const sidebarRef = useRef();
+    // const sidebarRef = useRef();
 
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-          if (
-            sidebarRef.current &&
-            !sidebarRef.current.contains(event.target)
-          ) {
-            setIsOpen(false);
-          }
-        };
+    // useEffect(() => {
+    //     const handleClickOutside = (event) => {
+    //       if (
+    //         sidebarRef.current &&
+    //         !sidebarRef.current.contains(event.target)
+    //       ) {
+    //         setIsOpen(false);
+    //       }
+    //     };
     
-        if (isOpen) {
-          document.addEventListener("mousedown", handleClickOutside);
-        } else {
-          document.removeEventListener("mousedown", handleClickOutside);
-        }
+    //     if (isOpen) {
+    //       document.addEventListener("mousedown", handleClickOutside);
+    //     } else {
+    //       document.removeEventListener("mousedown", handleClickOutside);
+    //     }
     
-        return () => {
-          document.removeEventListener("mousedown", handleClickOutside);
-        };
-      }, [isOpen]);
+    //     return () => {
+    //       document.removeEventListener("mousedown", handleClickOutside);
+    //     };
+    //   }, [isOpen]);
 
-    const handleLinkClick = () => {
-        setIsOpen(false);
-      };
+   
 
     return (
         <>
-           <nav className = 'sticky top-0 left-0 right-0 w-full bg-white z-999 '>
-               <section className = 'container mx-auto px-4 md:px-8 py-3  flex justify-between items-center '>
-                   <NavLink to = '/' className = 'w-[90px] md:w-[100px]'> 
+           <nav className = 'fixed left-1/2 top-0 w-11/12 max-w-8xl md:mt-7 flex flex-col mt-5 -translate-x-1/2 bg-white bg-background/20 rounded-2xl md:rounded-full z-50 backdrop-blur-lg '>
+              <section className = 'w-full flex justify-between items-center mx-auto px-4 md:px-5 md:py-4 py-3'>
+                   <NavLink to = '/' className = 'w-[85px] md:w-[100px]'> 
                        <img src={agrilogo} alt="" className = 'w-full'/>
                    </NavLink>
                    <div>
@@ -68,11 +66,11 @@ const Nav = () => {
                        <Link to = '/auth/signin'><button className = 'font-medium text-sm bg-[#FFFFFF]  py-[8px] px-[15px] '>Sign In</button></Link>
                        <Link to = '/auth/signup'><button className = 'font-medium text-sm text-[#FFFFFF] bg-[#4CAF50] rounded-[56px] py-[8px] px-[14px] '>Sign Up</button></Link>
                    </div>
-                   <div className = 'flex md:hidden'>
-                      <div onClick={() => setIsOpen(true)} className = ' ' >
-                          <img src= {agric} alt="" className = 'w-[43px] transform scale-x-[-1] scale-y-[-1] ' />
+                   <div className = 'md:hidden'>
+                      <div onClick={() => setIsOpen(!isOpen)} className = ' ' >
+                          <img src= {agric} alt="" className = 'w-[37px] transform scale-x-[-1] scale-y-[-1] ' />
                       </div>
-                      {isOpen && (
+                      {/* {isOpen && (
                          <div className="fixed inset-0 z-40 transition-opacity duration-200"></div>
                        )}
                        <div  
@@ -113,9 +111,27 @@ const Nav = () => {
                                    </div>
                               </div>
                            </div>
-                       </div>
+                       </div> */}
                    </div>
                </section>
+                   {isOpen && (
+                          <div className = 'md:hidden py-4 flex flex-col pl-6 gap-4'>
+                              {nav.map((offcanvas) => {
+                                 return (
+                                     <NavLink 
+                                      key = {offcanvas.id} to = {offcanvas.path}
+                                      className={({ isActive }) =>
+                                      `font-medium text-base   ${isActive
+                                      ? " text-[#4CAF50] "
+                                      : " text-[#000000]"
+                                      }`}
+                                      >
+                                      {offcanvas.head}    
+                                      </NavLink>
+                                   )
+                                })}
+                            </div>
+                      )}
            </nav>
            <Outlet/>
            <Footer/>

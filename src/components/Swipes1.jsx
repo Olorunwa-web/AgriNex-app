@@ -66,7 +66,7 @@ const Swipes1 = () => {
                     >
                         {swipeImage.map((omo, index) => {
                             return (
-                                    <SwiperSlide key = {omo.id} className = {` border-1 border-[#D5D4D4] rounded-[8px]   ${index === 0 ? "ml- xl:ml-14" : index === 5 ? " mr-40" : ""}`}>
+                                    <SwiperSlide key = {omo.id} className = {` border-1 border-[#D5D4D4] rounded-[8px]   ${index === 0 ? "ml-7 md:ml-9 xl:ml-17" : index === 5 ? " mr-40" : ""}`}>
                                         <div className = ''>
                                            <div>
                                              <img src= {omo.image} alt="" className = 'w-full rounded-tr-[8px] rounded-tl-[8px] ' />
