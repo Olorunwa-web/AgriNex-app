@@ -13,21 +13,21 @@ const Benefit = () => {
             <section className = 'bg-[#E3EDE4] md:mt10  mt-0 '>
                 <section className = 'container mx-auto px-4 md:px-8 w-full h-full  flex flex-col justify-between items-center gap-y-8  lg:gap-x-5 xl:gap-y-0 md:flex-row py-8 md:py-10'>
                   <section className = 'w-full md:pr-0 md:p lg:pr-0  md:w-[55%] h-full'>
-                    <p className = 'font-semibold text-[1rem] md:text-[1rem] text-[#808080]'>BENEFITS</p>
-                    <h1 className = 'text-[1.4rem]  md:text-[1.7rem] lg:text-[2rem] font-bold text-[#0D0D0D]'>What Makes Us Different</h1>
+                    <p className = 'font-semibold text-base text-[#808080]'>BENEFITS</p>
+                    <h1 className = 'text-[1.4rem]  md:text-[1.7rem] lg:text-[1.7rem] font-bold text-[#0D0D0D]'>What Makes Us Different</h1>
                     <div className = 'mt-7 md:mt-3 lg:mt-7 '>
                         <div className = 'w-full flex flex-col gap-y-4'>
                             {benefits.map((ben) =>{
                                 return (
                                     <div key =  {ben.id} className = 'w-full flex gap-4'>
                                         <div >
-                                          <div className = 'bg-[#2E6B31] rounded-full w-[28px] h-[28px] flex justify-center items-center' >
+                                          <div className = 'bg-[#2E6B31] rounded-full w-[27px] h-[27px] flex justify-center items-center' >
                                             <img src= {mark} alt="" className = 'w-3'/>
                                           </div>
                                         </div>
                                         <div className = 'flex flex-col gap-3 md:gap-0 lg:gap-2'>
-                                            <h4 className = 'font-medium text-[1.1rem] md:text-[1.3rem] '>{ben.title}</h4>
-                                            <p className = 'font-normal text-[#424242] text-[1rem] '>{ben.words}</p>
+                                            <h4 className = 'font-medium text-[1.1rem] md:text-[1.2rem] '>{ben.title}</h4>
+                                            <p className = 'font-normal text-[#424242] text-base '>{ben.words}</p>
                                         </div>
                                     </div>
                                 )
@@ -52,31 +52,31 @@ const Benefit = () => {
                 <section className = 'py-6 flex flex-col md:flex-row  gap-y-8 justify-between items-center'>
                     <div className = 'flex flex-col text-center'>
                         <div className = 'flex gap-1 items-center'>
-                            <h2 className = 'font-medium text-[#3A3A3A] text-[1.7rem] md:text-[1.7rem] lg:text-[2rem]'>500k</h2>
-                            <span className  = 'font-medium text-[29px] text-[#3A3A3A]'>+</span>
+                            <h2 className = 'font-medium text-[#3A3A3A] text-[1.7rem] md:text-[1.7rem] lg:text-[1.7rem]'>500k</h2>
+                            <span className  = 'font-medium text-[27px] text-[#3A3A3A]'>+</span>
                         </div>
-                        <p className = ' text-center font-normal text-[#808080] text-[1rem] md:text-[1.1rem] '>Reviews</p>
+                        <p className = ' text-center font-normal text-[#808080] text-base '>Reviews</p>
                     </div>
                     <div className = 'flex flex-col text-center'>
                         <div className = 'flex gap-1 items-center mx-auto'>
-                            <h2 className = 'font-medium text-[#3A3A3A] text-[1.7rem] md:text-[1.7rem] lg:text-[2rem]'>300k</h2>
-                            <span className  = 'font-medium text-[29px] text-[#3A3A3A]'>+</span>
+                            <h2 className = 'font-medium text-[#3A3A3A] text-[1.7rem] md:text-[1.7rem] lg:text-[1.7rem]'>300k</h2>
+                            <span className  = 'font-medium text-[27px] text-[#3A3A3A]'>+</span>
                         </div>
-                        <p className = ' text-center font-normal text-[#808080] text-[1rem] md:text-[1.1rem] '>Communities Serverd</p>
+                        <p className = ' text-center font-normal text-[#808080] text-base '>Communities Serverd</p>
                     </div>
                     <div className = 'flex flex-col text-center'>
                         <div className = 'flex gap-1 items-center mx-auto'>
-                            <h2 className = 'font-medium text-[#3A3A3A] text-[1.7rem] md:text-[1.7rem] lg:text-[2rem]'>125k</h2>
-                            <span className  = 'font-medium text-[29px] text-[#3A3A3A]'>+</span>
+                            <h2 className = 'font-medium text-[#3A3A3A] text-[1.7rem] md:text-[1.7rem] lg:text-[1.7rem]'>125k</h2>
+                            <span className  = 'font-medium text-[27px] text-[#3A3A3A]'>+</span>
                         </div>
-                        <p className = ' text-center font-normal text-[#808080] text-[1rem] md:text-[1.1rem] '>Successful Claims</p>
+                        <p className = ' text-center font-normal text-[#808080] text-base '>Successful Claims</p>
                     </div>
                     <div className = 'flex flex-col text-center'>
                         <div className = 'flex gap-1 items-center mx-auto'>
-                            <h2 className = 'font-medium text-[#3A3A3A] text-[1.7rem] md:text-[1.7rem] lg:text-[2rem]'>329k</h2>
-                            <span className  = 'font-medium text-[29px] text-[#3A3A3A]'>+</span>
+                            <h2 className = 'font-medium text-[#3A3A3A] text-[1.7rem] md:text-[1.7rem] lg:text-[1.7rem]'>329k</h2>
+                            <span className  = 'font-medium text-[27px] text-[#3A3A3A]'>+</span>
                         </div>
-                        <p className = ' text-center font-normal text-[#808080] text-[1rem] md:text-[1.1rem] '>Satisfied Customer</p>
+                        <p className = ' text-center font-normal text-[#808080] text-base '>Satisfied Customer</p>
                     </div>
                 </section>
             </section>
