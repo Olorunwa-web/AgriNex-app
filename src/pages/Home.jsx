@@ -14,7 +14,7 @@ import Prefoot from '../components/Prefooter';
 const Home = () => {
     return (
         <>
-            <section className ="bg-cover py-30 lg:py-35 xl:py-45 h-full max-h-full " style = {{ backgroundImage: `url(${homebackground})`}}>
+            <section className ="bg-cover py-30 lg:py-35 xl:py-40 h-full max-h-full " style = {{ backgroundImage: `url(${homebackground})`}}>
                 <section className = 'w-11/12 max-w-8xl mx-auto'>
                     <div className = 'flex flex-col gap-y-6'>
                         <div className = ' w-full md:w-[600px] lg:w-[770px] xl:w-[700px]'>
