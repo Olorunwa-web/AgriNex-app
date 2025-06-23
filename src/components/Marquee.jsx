@@ -13,8 +13,8 @@ const Marquee = () => {
         <>
         <div className = 'w-full '>
           <Splide  options = {{  type: "loop",
-          perPage: 4,
-          gap: "10rem",
+          perPage: 5,
+          gap: "4rem",
           speed: 7000, 
           pauseOnHover: false,
           arrows: false,
@@ -33,14 +33,15 @@ const Marquee = () => {
               autoScroll: {
                 speed: 3,
               },
+              gap: ''
             },
             320: {
-              perPage: 1,
+              perPage: 2,
               perMove:1,
               autoScroll: {
                 speed: 2,
               },
-              gap: ""
+              gap: "4rem"
             },
             375: {
               perPage: 2,
