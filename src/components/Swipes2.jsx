@@ -70,14 +70,14 @@ const Swipes2 = () => {
                                         <div className = ''>
                                             <div>
                                                 <h1 className = 'text-[1.1rem] text-[#0D0D0D] font-semibold'>{tes.title}</h1>
-                                                <p className = 'my-3 text-[1rem] text-[#666666] font-normal'>{tes.words}</p>
+                                                <p className = 'my-3 text-base text-[#666666] font-normal'>{tes.words}</p>
                                             </div>
                                             <div className = 'flex justify-between items-center'>
                                                 <div className = 'flex gap-2 items-center'>
                                                     <img src= {Ellipse} alt="" className = 'w-[45px] h-[45px] '/>
                                                     <div>
                                                         <h2 className  = 'text-[1.1rem] text-[#0D0D0D] font-semibold'>Adebayo K.</h2>
-                                                        <p className = 'text-[1rem] text-[#808080] font-norma;'>Maize Farmer</p>
+                                                        <p className = 'text-base text-[#808080] font-normal'>Maize Farmer</p>
                                                     </div>
                                                 </div>
                                                 <div className = 'flex gap-2 items-center'>

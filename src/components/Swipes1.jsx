@@ -72,10 +72,10 @@ const Swipes1 = () => {
                                              <img src= {omo.image} alt="" className = 'w-full rounded-tr-[8px] rounded-tl-[8px] ' />
                                            </div>
                                            <div className = 'p-4'>
-                                              <h1 className = 'text-[1rem] text-[#0D0D0D] font-semibold '>{omo.title}</h1>
-                                              <p className = ' w-full md:w-[90%] mt-3 text-[1rem] text-[#666666] font-normal '>{omo.words}</p>
+                                              <h1 className = 'text-base text-[#0D0D0D] font-semibold '>{omo.title}</h1>
+                                              <p className = ' w-full md:w-[90%] mt-3 text-base text-[#666666] font-normal '>{omo.words}</p>
                                               <div className = 'mt-6 mb-1'>
-                                                <button className = 'border-1 border-[#4CAF50] rounded-[56px] py-2 px-6 font-medium text-[1rem] text-[#4CAF50] '>Details</button>
+                                                <button className = 'border-1 border-[#4CAF50] rounded-[56px] py-2 px-6 font-medium text-base text-[#4CAF50] '>Details</button>
                                               </div>
                                            </div>
                                          </div>

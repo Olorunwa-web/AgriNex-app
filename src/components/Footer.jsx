@@ -34,16 +34,16 @@ const Footer = () => {
                             <h4 className = 'font-medium text-[1.2rem] text-white'>Quick links</h4>
                         </div>
                         <div className = 'flex flex-col gap-4'>
-                           <Link to = '/' className="font-normal text-[1rem] text-white hover:underline">
+                           <Link to = '/' className="font-normal text-base text-white hover:underline">
                               Home
                            </Link>
-                           <Link to = '/aboutus' className="font-normal text-[1rem] text-white hover:underline">
+                           <Link to = '/aboutus' className="font-normal text-base text-white hover:underline">
                               About Us
                            </Link>
-                           <Link to = '#' onClick={(e) => e.preventDefault()} className="font-normal text-[1rem] text-white cursor-not-allowed pointer-events-none">
+                           <Link to = '#' onClick={(e) => e.preventDefault()} className="font-normal text-base text-white cursor-not-allowed pointer-events-none">
                               Our Resources
                            </Link>
-                           <Link to = '/contactus' className="font-normal text-[1rem] text-white hover:underline">
+                           <Link to = '/contactus' className="font-normal text-base text-white hover:underline">
                               Contact Us
                            </Link>
                         </div>
@@ -53,16 +53,16 @@ const Footer = () => {
                             <h4 className = 'font-medium text-[1.2rem] text-white'>Help</h4>
                         </div>
                         <div className = 'flex flex-col gap-4'>
-                           <Link to = '#' onClick={(e) => e.preventDefault()} className="font-normal text-[1rem] text-white cursor-not-allowed pointer-events-none">
+                           <Link to = '#' onClick={(e) => e.preventDefault()} className="font-normal text-base text-white cursor-not-allowed pointer-events-none">
                               FAQs
                            </Link>
-                           <Link to = '#' onClick={(e) => e.preventDefault()} className="font-normal text-[1rem] text-white cursor-not-allowed pointer-events-none">
+                           <Link to = '#' onClick={(e) => e.preventDefault()} className="font-normal text-base text-white cursor-not-allowed pointer-events-none">
                               Terms & Conditions
                            </Link>
-                           <Link to = '#' onClick={(e) => e.preventDefault()} className="font-normal text-[1rem] text-white cursor-not-allowed pointer-events-none">
+                           <Link to = '#' onClick={(e) => e.preventDefault()} className="font-normal text-base text-white cursor-not-allowed pointer-events-none">
                               Privacy
                            </Link>
-                           <Link to = '#' onClick={(e) => e.preventDefault()} className="font-normal text-[1rem] text-white cursor-not-allowed pointer-events-none">
+                           <Link to = '#' onClick={(e) => e.preventDefault()} className="font-normal text-base text-white cursor-not-allowed pointer-events-none">
                               How it Works
                            </Link>
                         </div>
