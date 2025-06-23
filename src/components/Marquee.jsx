@@ -66,7 +66,7 @@ const Marquee = () => {
                 {uppermarquee.map((img) => {
                   return (
                      <SplideSlide key = {img.id} className = ''>
-                         <div className = 'xl:w-[8.5rem] lg:w-[6rem] w-[5.5rem] mx-auto py-4 '>
+                         <div className = 'xl:w-[7rem] lg:w-[6rem] w-[5.5rem] mx-auto py-4 '>
                             <img src= {img.image} alt="" className = 'w-full h-full'/>
                          </div>
                      </SplideSlide>
