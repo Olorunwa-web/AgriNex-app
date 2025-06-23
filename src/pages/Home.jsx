@@ -18,7 +18,7 @@ const Home = () => {
                 <section className = 'container mx-auto px-4 md:px-8'>
                     <div className = 'flex flex-col gap-y-6'>
                         <div className = ' w-full md:w-[600px] lg:w-[770px]'>
-                            <h1 className = 'font-bold text-[1.75rem] md:text-[40px] lg:text-[2.8rem] xl:text-[3.38rem] text-white leading-[40px] md:leading-[57px] lg:leading-[64px] xl:leading-[74px] '>Utilization of Technology to Empower Farmers Across Africa Agriculture</h1>
+                            <h1 className = 'font-bold text-[1.75rem] md:text-[40px] lg:text-[2rem] xl:text-[3.38rem] text-white leading-[40px] md:leading-[57px] lg:leading-[64px] xl:leading-[74px] '>Utilization of Technology to Empower Farmers Across Africa Agriculture</h1>
                         </div>
                         <div>
                             <button className = 'md:h-[60px] h-[55px]  bg-[#4CAF50] rounded-[56px] px-[23px] md:px-[27px] py-[12px] text-[17px] md:text-[18px] font-semibold text-white '>Apply for Funding</button>
