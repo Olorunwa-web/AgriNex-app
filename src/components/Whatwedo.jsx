@@ -13,8 +13,8 @@ const Whatwedo = () => {
     return (
         <>
             <section className = 'my-11'>
-                <p className = 'text-center font-normal text-[#808080] text-[1rem] md:text-[1rem]  mb-1'>WHAT WE DO</p>
-                <h1 className = 'text-center text-[1.4rem] md:text-[1.7rem] lg:text-[2rem] font-bold mb-4 text-[#0D0D0D]'>How AgriNex Works</h1>
+                <p className = 'text-center font-normal text-[#808080] text-base mb-1'>WHAT WE DO</p>
+                <h1 className = 'text-center text-[1.4rem] md:text-[1.7rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>How AgriNex Works</h1>
                 <section className = 'pt-4 w-full md:h-1/2 h-full flex flex-col lg:flex-row gap-x-2 lg:gap-x-8 xl:gap-x-0 items-center justify-between gap-y-7 '>
                     <div className = 'w-full  h-full flex justify-start items-start lg:w-[55%]'>
                         <div className = 'w-full md:h-[30rem]  xl:w-[90%]'>
