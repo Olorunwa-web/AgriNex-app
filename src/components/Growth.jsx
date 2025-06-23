@@ -41,7 +41,7 @@ const Growth = () => {
                              <button className = ' mt-7 bg-[#4CAF50] py-3 px-4 rounded-[56px] font-semibold text-white text-[1rem] '>Check Eligibility</button>
                         </div>
                         <div className = 'w-full md:w-[49%] lg:w-[55%] flex justify-end'>
-                            <div className = 'w-full xl:w-[80%]  lg:h-[35rem]'>
+                            <div className = 'w-full xl:w-[80%]  lg:h-[30rem]'>
                                 <img src= {growthimg} alt="" className = 'w-full h-full rounded-[17px] object-cover'/>
                             </div>
                         </div>
