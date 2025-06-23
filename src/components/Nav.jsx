@@ -65,8 +65,8 @@ const Nav = () => {
                       </div>
                    </div>
                    <div className = 'hidden md:flex gap-2  '>
-                       <Link to = '/auth/signin'><button className = 'font-medium text-[16px] bg-[#FFFFFF]  py-[8px] px-[15px] '>Sign In</button></Link>
-                       <Link to = '/auth/signup'><button className = 'font-medium text-[16px] text-[#FFFFFF] bg-[#4CAF50] rounded-[56px] py-[8px] px-[15px] '>Sign Up</button></Link>
+                       <Link to = '/auth/signin'><button className = 'font-medium text-sm bg-[#FFFFFF]  py-[8px] px-[15px] '>Sign In</button></Link>
+                       <Link to = '/auth/signup'><button className = 'font-medium text-sm text-[#FFFFFF] bg-[#4CAF50] rounded-[56px] py-[8px] px-[14px] '>Sign Up</button></Link>
                    </div>
                    <div className = 'flex md:hidden'>
                       <div onClick={() => setIsOpen(true)} className = ' ' >
