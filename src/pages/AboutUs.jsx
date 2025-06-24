@@ -176,6 +176,9 @@ const AboutUs = () => {
                     <Testimonial/>
                     <Faq/>
                 </section>
+                <div className = 'text-center py-1'>
+                     <span className = ' font-normal text-base text-[#808080]'>if your question has not been answered, please send it to us at info@agrinex.com</span>
+                </div>
             </section>
         </>
     )
