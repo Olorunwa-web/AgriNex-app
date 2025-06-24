@@ -83,7 +83,7 @@ const AboutUs = () => {
                 <section className = 'w-11/12 max-w-8xl mx-auto'>
                     <section className = 'py-8 md:py-5 flex flex-col gap-y-6 justify-between items-center md:flex-row '>
                         <div>
-                          <h1 className = 'font-bold text-white text-[33px] md:text-[40px] lg:text-[3.2rem] xl:text-[3.7rem]'>Our Services:</h1>
+                          <h1 className = 'font-bold text-white text-[33px] md:text-[40px] lg:text-[3.2rem] xl:text-[3.4rem]'>Our Services:</h1>
                         </div>
                         <div className = 'w-full md:w-[350px] lg:w-[450px] flex justify-end '>
                           <div className = 'flex flex-col'>
@@ -98,21 +98,21 @@ const AboutUs = () => {
             {/*  */}
 
             <section>
-                <section className = 'w-11/12 max-w-8xl mx-auto'>
-                    <section className = 'py-6  flex flex-col md:flex-row gap-x-4 justify-between'>
+                <section className = 'w-11/12 max-w-8xl mx-auto my-8'>
+                    <section className = 'py-4  flex flex-col md:flex-row gap-x-4  justify-between'>
                         <div className = 'w-full text-center md:text-left md:w-1/2 lg:w-full xl:w-1/2'>
                            <p className = 'font-normal text-[#808080] text-base mb-1'>AGRICULTURE-THEMED</p>
-                           <h1 className = 'text-[1.4rem] md:text-[1.7rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>Our Story</h1>
-                           <h1 className = 'mt-[-9px] w-full xl:w-[600px] text-[1.4rem] md:text-[1.7rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>Innovation, Sustainability, Transparency & Empowerment</h1>
+                           <h1 className = 'text-[1.4rem] md:text-[1.5rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>Our Story</h1>
+                           <h1 className = 'mt-[-9px] w-full xl:w-[500px] text-[1.4rem] md:text-[1.5rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>Innovation, Sustainability, Transparency & Empowerment</h1>
                         </div>
-                        <div className = 'w-full text-center md:text-left md:w-1/2 lg:w-[770px] xl:w-[410px] '>
+                        <div className = 'w-full text-center md:text-left md:w-1/2 lg:w-[770px] xl:w-[450px] '>
                             <p className = 'font-medium text-black text-base'>AgriNex was born from a simple yet powerful idea: to bridge the gap between farmers and technology. We, inspired by the struggles of small and large-scale farmers, saw the challenges of unpredictable weather, limited market access, and outdated farming practices. We knew the technology could be key to transforming agriculture.</p>
                         </div>
                     </section>
                     <div className = 'py-5 mb-7 w-full flex flex-wrap gap-4 md:gap-0 justify-center md:justify-between'>
                         {aboutimages.map((img)=> {
                             return (
-                               <div key = {img.id} className = 'w-[40%] md:w-[16%] '>
+                               <div key = {img.id} className = 'w-[24%] md:w-[16%] '>
                                    <img src= {img.image} alt="" className = 'w-full'/>
                                </div>
                             )
