@@ -7,7 +7,12 @@ import image3 from '../assets/Blog 1.png';
 import image4 from '../assets/Frame 1171279034.png';
 import Swipes from '../components/Swipes';
 import image5 from '../assets/Blog 1 (2).png';
-import image6 from '../assets/Farmer Using A Robotic Weed Control System Wallpaper _ Premium AI-generated image 1 (2).png';
+import image6 from '../assets/Farmer Using A Robotic Weed Control System Wallpaper _ Premium AI-generated image 1 (3).png';
+import Testimonial from '../components/Testimonial';
+import Faq from '../components/Faq';
+
+
+
 
 
 const aboutimages = [
@@ -33,6 +38,22 @@ const aboutimages = [
     },
 ]
 
+
+
+const inspire = [
+    {
+        id: 1,
+        title: '"Our Mission"',
+        words: 'Our mission is to make farming more efficient, profitable, and environmentally friendly and revolutionize agriculture by providing farmers with the tools, resources, and market access they need to thrive in a digital world.',
+        image: image6,
+    },
+    {
+        id: 2,
+        title: '"Our Vision"',
+        words: 'We envision a future where agriculture is tech-driven, sustainable,and accessible to everyone. By bridging between technology and farming. we thrive to create a thriving agricultural ecosystem.',
+        image: image5,
+    },
+]
 
 
 const AboutUs = () => {
@@ -131,29 +152,29 @@ const AboutUs = () => {
                 {/*  */}
 
                 <section className = 'w-11/12 max-w-8xl mx-auto'>
-                      <p className = 'text-center font-normal text-[#808080] text-base  mb-1'>INSPIRATION</p>
-                      <div className = 'w-full flex m-0 p-0 flex-col gap-x-10 my-8 md:flex-row'>
-                          <div className = 'w-full h-full flex flex-col md:w-1/2  '>
-                               <div className = 'bg-[#2E6B31] w-full rounded-t-[30px] text-center p-4'>
-                                   <div>
-                                      <h1 className = ''>"Our Mission"</h1>
-                                      <p>Our mission is to make farming more efficient, profitable, and environmentally friendly and revolutionize agriculture by providing farmers with the tools, resources, and market access they need to thrive in a digital world.</p>
-                                   </div>
+                      <p className = 'text-center font-normal text-[#808080] text-base mb-1'>INSPIRATION</p>
+                      <div className = 'w-full flex flex-col justify-center gap-x-10 gap-y-6 my-8 md:flex-row'>
+                          {inspire.map((inp) =>{
+                              return (
+                             <div key = {inp.id} className = 'w-full md xl:w-[45%] flex flex-col '>
+                                 <div className = 'bg-[#2E6B31] p-4 w-full rounded-t-[30px] text-center'>
+                                    <h1 className = 'font-semibold text-white text-[1.4rem] md:text-[1.6rem] lg:text-[1.9rem]'>{inp.title}</h1>
+                                    <p className = 'my-2 mx-auto lg:w-[400px] xl:w-[600px] font-medium text-white text-base'>{inp.words}</p>
+                                 </div>
+                                 <div className = 'w-full h-full flex-1 mt-[-1px]'>
+                                   <img src= {inp.image} alt="" className = 'w-full object-fit h-full '/>
+                                </div>
                               </div>
-                              <div className = 'w-full h-full'>
-                                <img src= {image5} alt="" className = 'w-full h-full'/>
-                              </div>
-                          </div>
-                          <div className = 'w-full flex flex-col  md:w-1/2'>
-                              <div>
-                                 <h1>"Our Vision"</h1>
-                                 <p>We envision a future where agriculture is tech-driven, sustainable,and accessible to everyone. By bridging between technology and farming. we thrive to create a thriving agricultural ecosystem.</p>
-                              </div>
-                              <div className = 'w-full h-full '>
-                                  <img src= {image6} alt="" className = 'w-full h-full' />
-                              </div>
-                          </div>
+                              )
+                          })}
                       </div>
+                </section>
+
+                {/*  */}
+
+                <section>
+                    <Testimonial/>
+                    <Faq/>
                 </section>
             </section>
         </>
