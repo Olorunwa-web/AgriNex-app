@@ -38,10 +38,10 @@ const aboutimages = [
 const AboutUs = () => {
     return (
         <>
-            <section className ="bg-cover py-20 md:py-20 lg:py-30" style = {{ backgroundImage: `url(${peoplebackground})`}}>
-                <section className = 'container mx-auto px-4 md:px-8'>
-                    <h1 className = 'mb-3 font-bold text-white text-[38px] md:text-[50px] lg:text-[65px] xl:text-[82px]'>About Us</h1>
-                    <p className = ' w-full md:w-[720px] lg:w-[900px] font-normal text-white text-[1.3rem] md:text-[1.4rem] lg:text-[1.6rem]'>We blend technology with farming to create smart, sustainable solutions for modern agriculture. Our mission is to help farmer grow efficiently and imapctfully.</p>
+            <section className ="bg-cover py-28 lg:py-33 xl:py-37 h-full max-h-full" style = {{ backgroundImage: `url(${peoplebackground})`}}>
+                <section className = 'w-11/12 max-w-8xl mx-auto'>
+                    <h1 className = 'mb-3 font-bold text-white text-[2.2rem] md:text-[2.7rem] lg:text-[3.2rem] xl:text-[4rem]'>About Us</h1>
+                    <p className = ' w-full md:w-[720px] lg:w-[800px] font-normal text-white text-[1.1rem] md:text-[1.3rem] lg:text-[1.4rem]'>We blend technology with farming to create smart, sustainable solutions for modern agriculture. Our mission is to help farmer grow efficiently and imapctfully.</p>
                 </section>
             </section>
 
@@ -80,7 +80,7 @@ const AboutUs = () => {
             {/*  */}
 
             <section className = 'bg-[#2E6B31]  '>
-                <section className = 'container mx-auto px-4 my-8 md:px-8'>
+                <section className = 'w-11/12 max-w-8xl mx-auto'>
                     <section className = 'py-8 md:py-6 flex flex-col gap-y-6 justify-between items-center md:flex-row '>
                         <div>
                           <h1 className = 'font-bold text-white text-[33px] md:text-[40px] lg:text-[53px] xl:text-[65px]'>Our Services:</h1>

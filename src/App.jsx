@@ -7,13 +7,17 @@ import ContactUs from './pages/ContactUs';
 import OurWork from './pages/OurWork';
 import Nav from './components/Nav';
 import Error from './pages/Error';
+import ScrollTop from './components/ScrollTop';
 import './App.css';
+
+
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
+        <ScrollTop/>
          <Routes>
             <Route path = '/auth/signup' element = {<SignUp/>}/>
             <Route path = '/auth/signin' element = {<SignIn/>}/>
