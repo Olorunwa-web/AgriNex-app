@@ -40,8 +40,8 @@ const AboutUs = () => {
         <>
             <section className ="bg-cover py-28 lg:py-33 xl:py-37 h-full max-h-full" style = {{ backgroundImage: `url(${peoplebackground})`}}>
                 <section className = 'w-11/12 max-w-8xl mx-auto'>
-                    <h1 className = 'mb-3 font-bold text-white text-[2.2rem] md:text-[2.7rem] lg:text-[3.2rem] xl:text-[4rem]'>About Us</h1>
-                    <p className = ' w-full md:w-[720px] lg:w-[800px] font-normal text-white text-[1.1rem] md:text-[1.3rem] lg:text-[1.4rem]'>We blend technology with farming to create smart, sustainable solutions for modern agriculture. Our mission is to help farmer grow efficiently and imapctfully.</p>
+                    <h1 className = 'mb-3 font-bold text-white text-[2.2rem] md:text-[2.7rem] lg:text-[3.2rem] xl:text-[3.7rem]'>About Us</h1>
+                    <p className = ' w-full md:w-[720px] lg:w-[700px] font-normal text-white text-[1.1rem] md:text-[1.2rem] lg:text-[1.3rem]'>We blend technology with farming to create smart, sustainable solutions for modern agriculture. Our mission is to help farmer grow efficiently and imapctfully.</p>
                 </section>
             </section>
 
