@@ -38,36 +38,36 @@ const aboutimages = [
 const AboutUs = () => {
     return (
         <>
-            <section className ="bg-cover py-28 lg:py-33 xl:py-37 h-full max-h-full" style = {{ backgroundImage: `url(${peoplebackground})`}}>
+            <section className ="bg-cover py-28  lg:py-33 xl:py-37 h-full max-h-full" style = {{ backgroundImage: `url(${peoplebackground})`}}>
                 <section className = 'w-11/12 max-w-8xl mx-auto'>
                     <h1 className = 'mb-3 font-bold text-white text-[2.2rem] md:text-[2.7rem] lg:text-[3.2rem] xl:text-[3.7rem]'>About Us</h1>
-                    <p className = ' w-full md:w-[720px] lg:w-[700px] font-normal text-white text-[1.1rem] md:text-[1.2rem] lg:text-[1.3rem]'>We blend technology with farming to create smart, sustainable solutions for modern agriculture. Our mission is to help farmer grow efficiently and imapctfully.</p>
+                    <p className = ' w-full md:w-[650px] lg:w-[700px] font-normal text-white text-[1.1rem] md:text-[1.2rem] lg:text-[1.3rem]'>We blend technology with farming to create smart, sustainable solutions for modern agriculture. Our mission is to help farmer grow efficiently and imapctfully.</p>
                 </section>
             </section>
 
             {/*  */}
 
-            <section className = 'container mx-auto px-4 my-8 md:px-8'>
+            <section className = 'w-11/12 max-w-8xl mx-auto'>
                 <section className = 'py-4 flex flex-col md:flex-row gap-y-7 md:gap-10 justify-between items-center'>
                     <div className = 'w-full text-center md:text-left md:w-1/2 lg:w-[60%] xl:w-[65%] '>
                         <div className = 'w-full lg:w-[450px]' >
-                          <span className = 'font-semibold text-[#4CAF50] text-[1.4rem]'>AgriNex </span>
-                          <span className = 'font-medium text-[1.1rem] text-black '>is a smart agriculture platform designed to connect farmers, agribusiness, and consumers through innovation digital solutions. We leverage technology to enhance productivity, market access, and sustainability in the agricultural sector.</span>
+                          <span className = 'font-semibold text-[#4CAF50] text-[1.3rem]'>AgriNex </span>
+                          <span className = 'font-medium text-base text-black '>is a smart agriculture platform designed to connect farmers, agribusiness, and consumers through innovation digital solutions. We leverage technology to enhance productivity, market access, and sustainability in the agricultural sector.</span>
                         </div>
                     </div>
                     <div className = 'w-full lg:w-[40%] xl:w-[35%] md:w-1/2 flex justify-around md:justify-between'>
                         {aboutsec.map((about)=> {
                             return (
-                                <div key = {about.id} className = 'flex flex-col gap-1 items-center'>
+                                <div key = {about.id} className = 'flex flex-col gap- items-center'>
                                     <div className = 'w-[39px]'>
                                         <img src= {about.image}  alt="" className = 'w-full'/>
                                     </div>
                                     <div className = 'flex gap-1 items-center'>
-                                        <h2 className = 'font-medium text-[#3A3A3A] text-[1.7rem] md:text-[1.7rem] lg:text-[2rem]'>{about.number}</h2>
-                                        <span className  = 'font-medium text-[29px] text-[#3A3A3A]'>+</span>
+                                        <h2 className = 'font-medium text-[#3A3A3A] text-[1.7rem] md:text-[1.7rem] lg:text-[1.7rem]'>{about.number}</h2>
+                                        <span className  = 'font-medium text-[27px] text-[#3A3A3A]'>+</span>
                                     </div>
                                     <div>
-                                        <p className = ' text-center font-normal text-[#808080] text-[1rem] md:text-[1.1rem]'>{about.board}</p>
+                                        <p className = ' text-center font-normal text-[#808080] text-base'>{about.board}</p>
                                     </div>
                                 </div>
                             )
@@ -81,14 +81,14 @@ const AboutUs = () => {
 
             <section className = 'bg-[#2E6B31]  '>
                 <section className = 'w-11/12 max-w-8xl mx-auto'>
-                    <section className = 'py-8 md:py-6 flex flex-col gap-y-6 justify-between items-center md:flex-row '>
+                    <section className = 'py-8 md:py-5 flex flex-col gap-y-6 justify-between items-center md:flex-row '>
                         <div>
-                          <h1 className = 'font-bold text-white text-[33px] md:text-[40px] lg:text-[53px] xl:text-[65px]'>Our Services:</h1>
+                          <h1 className = 'font-bold text-white text-[33px] md:text-[40px] lg:text-[3.2rem] xl:text-[3.7rem]'>Our Services:</h1>
                         </div>
                         <div className = 'w-full md:w-[350px] lg:w-[450px] flex justify-end '>
                           <div className = 'flex flex-col'>
-                             <span className = 'font-medium text-white text-[1.1rem]'>At AgriNex, we connect farmer with technology to improve productivity and market access.</span>
-                             <span className = 'font-medium text-white text-[1.1rem]' ><span className = 'font-semibold text-white text-[1.1rem]'>We offer:</span> Smart Farm Tools,Real-time Market Updates, Training & Support and Direct Linkage to Buyers.</span>
+                             <span className = 'font-medium text-white text-base'>At AgriNex, we connect farmer with technology to improve productivity and market access.</span>
+                             <span className = 'font-medium text-white text-base' ><span className = 'font-semibold text-white text-[1.1rem]'>We offer:</span> Smart Farm Tools,Real-time Market Updates, Training & Support and Direct Linkage to Buyers.</span>
                           </div>
                         </div>
                     </section>
@@ -98,18 +98,18 @@ const AboutUs = () => {
             {/*  */}
 
             <section>
-                <section className = 'container mx-auto px-4 my-8 md:px-8'>
-                    <section className = 'py-3  flex flex-col md:flex-row gap-x-4 justify-between'>
+                <section className = 'w-11/12 max-w-8xl mx-auto'>
+                    <section className = 'py-6  flex flex-col md:flex-row gap-x-4 justify-between'>
                         <div className = 'w-full text-center md:text-left md:w-1/2 lg:w-full xl:w-1/2'>
-                           <p className = 'font-normal text-[#808080] text-[1rem] md:text-[1rem]  mb-1'>AGRICULTURE-THEMED</p>
-                           <h1 className = 'text-[1.4rem] md:text-[1.7rem] lg:text-[2rem] font-bold mb-4 text-[#0D0D0D]'>Our Story</h1>
-                           <h1 className = 'mt-[-9px] w-full xl:w-[600px] text-[1.4rem] md:text-[1.7rem] lg:text-[2rem] font-bold mb-4 text-[#0D0D0D]'>Innovation, Sustainability, Transparency & Empowerment</h1>
+                           <p className = 'font-normal text-[#808080] text-base mb-1'>AGRICULTURE-THEMED</p>
+                           <h1 className = 'text-[1.4rem] md:text-[1.7rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>Our Story</h1>
+                           <h1 className = 'mt-[-9px] w-full xl:w-[600px] text-[1.4rem] md:text-[1.7rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>Innovation, Sustainability, Transparency & Empowerment</h1>
                         </div>
-                        <div className = 'w-full text-center md:text-left md:w-1/2 lg:w-[770px] xl:w-[450px] '>
-                            <p className = 'font-medium text-black text-[1.1rem]'>AgriNex was born from a simple yet powerful idea: to bridge the gap between farmers and technology. We, inspired by the struggles of small and large-scale farmers, saw the challenges of unpredictable weather, limited market access, and outdated farming practices. We knew the technology could be key to transforming agriculture.</p>
+                        <div className = 'w-full text-center md:text-left md:w-1/2 lg:w-[770px] xl:w-[410px] '>
+                            <p className = 'font-medium text-black text-base'>AgriNex was born from a simple yet powerful idea: to bridge the gap between farmers and technology. We, inspired by the struggles of small and large-scale farmers, saw the challenges of unpredictable weather, limited market access, and outdated farming practices. We knew the technology could be key to transforming agriculture.</p>
                         </div>
                     </section>
-                    <div className = 'py-5 w-full flex flex-wrap gap-4 md:gap-0 justify-center md:justify-between'>
+                    <div className = 'py-5 mb-7 w-full flex flex-wrap gap-4 md:gap-0 justify-center md:justify-between'>
                         {aboutimages.map((img)=> {
                             return (
                                <div key = {img.id} className = 'w-[40%] md:w-[16%] '>
@@ -122,16 +122,16 @@ const AboutUs = () => {
 
                 {/*  */}
 
-                <section className = 'py-8' >
-                   <p className = 'text-center font-normal text-[#808080] text-[1rem] md:text-[1rem]  mb-1'>AGRICULTURE-FOCUSED</p>
-                   <h1 className = 'text-center text-[1.4rem] md:text-[1.7rem] lg:text-[2rem] font-bold mb-4 text-[#0D0D0D]'>What We Offer</h1>
+                <section className = 'py-12' >
+                   <p className = 'text-center font-normal text-[#808080] text-base  mb-1'>AGRICULTURE-FOCUSED</p>
+                   <h1 className = 'text-center text-[1.4rem] md:text-[1.7rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>What We Offer</h1>
                    <Swipes/>
                 </section>
 
                 {/*  */}
 
-                <section className = 'container mx-auto px-4 my-8 md:px-8'>
-                      <p className = 'text-center font-normal text-[#808080] text-[1rem] md:text-[1rem]  mb-1'>INSPIRATION</p>
+                <section className = 'w-11/12 max-w-8xl mx-auto'>
+                      <p className = 'text-center font-normal text-[#808080] text-base  mb-1'>INSPIRATION</p>
                       <div className = 'w-full flex m-0 p-0 flex-col gap-x-10 my-8 md:flex-row'>
                           <div className = 'w-full h-full flex flex-col md:w-1/2  '>
                                <div className = 'bg-[#2E6B31] w-full rounded-t-[30px] text-center p-4'>

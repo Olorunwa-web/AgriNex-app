@@ -65,7 +65,7 @@ const Swipes = () => {
                                          <img src= {swip.image} alt="" className = ''/>
                                        </div>
                                        <h3 className = 'text-center text-[#0D0D0D] font-semibold text-[1.1rem] pt-2 pb-4'>{swip.title}</h3>
-                                       <p className = 'text-center text-[#0D0D0D] font-semibold text-[1rem]'>{swip.word}</p>
+                                       <p className = 'text-center text-[#0D0D0D] font-medium text-base'>{swip.word}</p>
                                     </div>
                                 </div>
                             </SwiperSlide>
