@@ -70,13 +70,13 @@ const Nav = () => {
                        <Link to = '/auth/signup'><button className = 'font-medium text-sm text-[#FFFFFF] bg-[#4CAF50] rounded-[56px] py-[8px] px-[14px] '>Sign Up</button></Link>
                    </div>
                    <div className = 'md:hidden '>
-                      <div onClick={() => setIsOpen(true)} className =' w-full transition-all duration-300' >
+                      <div  className =' w-full transition-all duration-300' >
                           {isOpen ? (
                               < div onClick={() => setIsOpen(false)}>
                                   <img src= {close} alt=""  className = 'w-[37px] transition-all duration-300 '/>
                               </div>
                               ) : (
-                          <img src= {menu} alt=""  className = ' w-[40px] transform  scale-y-[-1] transition-all duration-300 ' />
+                          <img src= {menu} onClick={() => setIsOpen(true)} alt=""  className = ' w-[40px] transform  scale-y-[-1] transition-all duration-300 ' />
                           )}
                       </div>
                    </div>
