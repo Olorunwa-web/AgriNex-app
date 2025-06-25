@@ -15,7 +15,7 @@ const Faq = () => {
 
     return (
         <>
-            <section className = 'w-11/12 max-w-8xl mx-auto '>
+            <section className = 'container w-11/12 max-w-8xl mx-auto '>
                 <section>
                    <p className = 'text-center font-normal text-[#808080] text-base  mb-1'>NEED HELP?</p>
                    <h1 className = 'text-center text-[1.4rem] md:text-[1.7rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>FAQs</h1>

@@ -11,8 +11,8 @@ import Testimonial from '../components/Testimonial';
 const OurWork = () => {
     return (
         <>
-            <section className ="bg-cover py-28  lg:py-35 xl:py-50 h-full max-h-full" style = {{ backgroundImage: `url(${workground})`}}>
-                <section className = 'w-11/12 max-w-8xl mx-auto'>
+            <section className ="bg-cover py-28 md:py-40 lg:py-35 xl:py-50 h-full max-h-full" style = {{ backgroundImage: `url(${workground})`}}>
+                <section className = 'container w-11/12 max-w-8xl mx-auto'>
                     <h1 className = 'mb-3 font-bold text-white text-[2.2rem] md:text-[2.7rem] lg:text-[3.2rem] xl:text-[3.7rem]'>Our Work</h1>
                     <p className = ' w-full md:w-[650px] lg:w-[700px] font-normal text-white text-[1.1rem] md:text-[1.2rem] lg:text-[1.3rem]'>Empowering farmers, transforming agriculture, and building sustainable futures-because technology alone doesn't change lives, people do. We're here to support the hands that feed the world.</p>
                 </section>
@@ -20,7 +20,7 @@ const OurWork = () => {
 
             {/*  */}
 
-            <section className = 'my-7 my- w-11/12 max-w-8xl mx-auto'>
+            <section className = 'my-7 container w-11/12 max-w-8xl mx-auto'>
                 <p className = ' text-center font-normal text-[#808080] text-base mb-1'>HOW WE MAKE IT HAPPEN</p>
                 <h1 className = 'text-center text-[1.4rem] md:text-[1.5rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>What We Do</h1>
                 <section className = 'py-8'>

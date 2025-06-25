@@ -11,7 +11,7 @@ const Benefit = () => {
     return (
         <>
             <section className = 'bg-[#E3EDE4] md:mt10  mt-0 '>
-                <section className = 'w-11/12 max-w-8xl mx-auto h-full  flex flex-col justify-between items-center gap-y-8  lg:gap-x-5 xl:gap-y-0 md:flex-row py-8 md:py-10'>
+                <section className = 'container w-11/12 max-w-8xl mx-auto h-full  flex flex-col justify-between items-center gap-y-8  lg:gap-x-5 xl:gap-y-0 md:flex-row py-8 md:py-10'>
                   <section className = 'w-full md:pr-0 md:p lg:pr-0  md:w-[55%] h-full'>
                     <p className = 'font-semibold text-base text-[#808080]'>BENEFITS</p>
                     <h1 className = 'text-[1.4rem]  md:text-[1.7rem] lg:text-[1.7rem] font-bold text-[#0D0D0D]'>What Makes Us Different</h1>
@@ -48,7 +48,7 @@ const Benefit = () => {
 
             {/*  */}
             <section className = 'border-b-1 border-[#E4E4E4]'>
-            <section className = 'container mx-auto px-4 md:px-8 '>
+            <section className = 'container w-11/12 max-w-8xl mx-auto '>
                 <section className = 'py-6 flex flex-col md:flex-row  gap-y-8 justify-between items-center'>
                     <div className = 'flex flex-col text-center'>
                         <div className = 'flex gap-1 items-center'>

@@ -14,8 +14,8 @@ import Prefoot from '../components/Prefooter';
 const Home = () => {
     return (
         <>
-            <section className ="bg-cover py-34 lg:py-35 xl:py-43 h-full max-h-full " style = {{ backgroundImage: `url(${homebackground})`}}>
-                <section className = 'w-11/12 max-w-8xl mx-auto'>
+            <section className ="bg-cover py-34 md:py-40  lg:py-35 xl:py-43 h-full max-h-full " style = {{ backgroundImage: `url(${homebackground})`}}>
+                <section className = 'container w-11/12 max-w-8xl mx-auto'>
                     <div className = 'flex flex-col gap-y-6'>
                         <div className = ' w-full md:w-[600px] lg:w-[770px] xl:w-[700px]'>
                             <h1 className = 'font-bold text-[1.75rem] md:text-[40px] lg:text-[2.8rem] xl:text-[3.1rem] text-white leading-[40px] md:leading-[57px] lg:leading-[64px] xl:leading-[69px] '>Utilization of Technology to Empower Farmers Across Africa Agriculture</h1>
@@ -29,7 +29,7 @@ const Home = () => {
 
             {/*  */}
 
-            <section className = 'w-11/12 max-w-8xl mx-auto py-5'>
+            <section className = 'container w-11/12 max-w-8xl mx-auto py-5'>
                 <Marquees/>
                 <Whatwedo/>
             </section>

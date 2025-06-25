@@ -8,7 +8,7 @@ const Imapct = () => {
     return (
         <>
             <section className = 'my-9'>
-                <section className = 'w-11/12 max-w-8xl mx-auto'>
+                <section className = 'container w-11/12 max-w-8xl mx-auto'>
                   <p className = 'text-center font-normal text-[#808080] text-base mb-1'>PROOF IN PROGRESS</p>
                   <h1 className = 'text-center text-[1.4rem] md:text-[1.7rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>Our Imapact in Numbers</h1>
                     <section className = 'flex flex-col lg:flex-row md:gap-y-9 lg:gap-4  gap-y-7 justify-between items-center my-9'>
