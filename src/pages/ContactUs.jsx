@@ -1,5 +1,6 @@
 import React from 'react'
 import contactback from '../assets/image 1.png'
+import Iframe from 'react-iframe'
 
 
 
@@ -73,11 +74,25 @@ const ContactUs = () => {
                               <p className = 'mb-2 font-semibold text-black text-base '>Sat. - Sun</p>
                               <span className = 'font-medium text-base text-[#808080] '>12pm-8pm</span>
                            </div>
-                          
                        </div>
                   </section>
                  </section>
               </section>
+            </section>
+
+            {/*  */}
+
+            <section className = 'container my-12 md:my-13  w-11/12 max-w-8xl mx-auto'>
+                <div className = 'w-fu'>
+                <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.889869751438!2d3.3634445749952544!3d6.535590423022735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8dba7a651735%3A0x32e2b349847a2298!2s1%20Ogunlesi%20St%2C%20off%20Awoyokun%20Street%2C%20Onipanu%2C%20Lagos%20102215%2C%20Lagos!5e0!3m2!1sen!2sng!4v1750864268952!5m2!1sen!2sng"
+                   width="100%"
+                   height=""
+                   id=""
+                  className="w-full h-[25rem] md:h-[30rem] rounded-lg "
+                  display="block"
+                  position="relative"/>
+                    {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.889869751438!2d3.3634445749952544!3d6.535590423022735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8dba7a651735%3A0x32e2b349847a2298!2s1%20Ogunlesi%20St%2C%20off%20Awoyokun%20Street%2C%20Onipanu%2C%20Lagos%20102215%2C%20Lagos!5e0!3m2!1sen!2sng!4v1750864268952!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen = '' loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+                </div>
             </section>
         </>
     )
