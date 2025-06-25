@@ -2,7 +2,7 @@ import React from 'react'
 import workground from '../assets/workback.png';
 import Prefoot from '../components/Prefooter';
 import { workstuff } from '../data';
-
+import Impact from '../components/Imapct';
 
 
 const OurWork = () => {
@@ -24,12 +24,12 @@ const OurWork = () => {
                     <div className = 'flex flex-wrap gap-8 justify-between '>
                         {workstuff.map((work) =>{
                             return (
-                                <div key = {work.id} className = 'w-full md:w-[30%] flex flex-col gap-2 justify-center '>
+                                <div key = {work.id} className = 'w-full md:w-[30%] lg:w-[31%] flex flex-col gap-2 justify-center '>
                                     <div className = 'w-full flex justify-center '>
                                         <img src={work.image} alt="" className = 'w-[50px]'/>
                                     </div>
                                     <div className = 'text-center'>
-                                        <h1 className = 'mb-2 font-bold text-[#0D0D0D] text-[1.3rem] md:text-[1.4rem] lg:text-[1.5rem] '>{work.title}</h1>
+                                        <h1 className = 'mb-2 font-bold text-[#0D0D0D] text-[1.3rem] md:text-[1.3rem] lg:text-[1.4rem] '>{work.title}</h1>
                                         <p className = 'w-[80%] xl:w-[60%] mx-auto font-medium text-[#808080] text-base '>{work.words}</p>
                                     </div>
                                 </div>
@@ -40,6 +40,18 @@ const OurWork = () => {
                 </section>
             </section>
             <section>
+
+            {/*  */}
+
+            <section className = 'py-3 bg-[#EDF7EE]'>
+              <Impact/>
+            </section>
+
+            {/*  */}
+
+            <section>
+                
+            </section>
               <Prefoot/>
             </section>
         </>
