@@ -43,14 +43,14 @@ const OurWork = () => {
 
             {/*  */}
 
-            <section className = 'py-3 bg-[#EDF7EE]'>
+            <section className = 'py-1 bg-[#EDF7EE]'>
               <Impact/>
             </section>
 
             {/*  */}
 
             <section>
-                
+
             </section>
               <Prefoot/>
             </section>
