@@ -157,9 +157,9 @@ const AboutUs = () => {
                           {inspire.map((inp) =>{
                               return (
                              <div key = {inp.id} className = 'w-full md xl:w-[45%] flex flex-col '>
-                                 <div className = 'bg-[#2E6B31] p-4 w-full rounded-t-[30px] text-center'>
+                                 <div className = 'bg-[#2E6B31] p-4  md:p-5 w-full rounded-t-[30px] text-center'>
                                     <h1 className = 'font-semibold text-white text-[1.4rem] md:text-[1.6rem] lg:text-[1.9rem]'>{inp.title}</h1>
-                                    <p className = 'my-2 mx-auto lg:w-[400px] xl:w-[600px] font-medium text-white text-base'>{inp.words}</p>
+                                    <p className = 'my-2 mx-auto  font-medium text-white text-base'>{inp.words}</p>
                                  </div>
                                  <div className = 'w-full h-full flex-1 mt-[-1px]'>
                                    <img src= {inp.image} alt="" className = 'w-full object-fit h-full '/>
