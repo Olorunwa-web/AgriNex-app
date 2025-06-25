@@ -72,7 +72,7 @@ const Nav = () => {
                    <div className = 'md:hidden '>
                       <div onClick={() => setIsOpen(true)} className =' w-full transition-all duration-300' >
                           {isOpen ? (
-                              < div onClick ={handleLinkClick}>
+                              < div onClick={() => setIsOpen(false)}>
                                   <img src= {close} alt=""  className = 'w-[37px] transition-all duration-300 '/>
                               </div>
                               ) : (
@@ -83,7 +83,7 @@ const Nav = () => {
                </section>
                    {isOpen && (
                        <div className = 'py-4 px-6'>
-                          <div className = 'md:hidden flex flex-col  gap-4' ref = {sidebarRef}>
+                          <div className = 'md:hidden flex flex-col  gap-4' >
                               {nav.map((offcanvas) => {
                                  return (
                                      <NavLink 
@@ -101,7 +101,7 @@ const Nav = () => {
                                 })}
                             </div>
                              <div className = ' mt-2 flex flex-col gap-3 px-3 '>
-                                 <Link to = '/auth/signin'><button className = 'font-medium text-base bg-[#FFFFFF]  py-2 w-full'>Sign In</button></Link>
+                                 <Link to = '/auth/signin'><button className = 'font-medium text-base bg-[#FFFFFF] py-2 w-full'>Sign In</button></Link>
                                  <Link to = '/auth/signup'><button className = 'font-medium text-base text-[#FFFFFF] bg-[#4CAF50] rounded-full py-2  w-full'>Sign Up</button></Link>
                              </div>
                        </div>
