@@ -47,7 +47,7 @@ const ContactUs = () => {
                 <section className = ' w-full md:w-full lg:w-2/5 flex flex-col  gap-4 justify-between'>
                   <section className = 'border-1  border-[#808080] rounded-[20px]'>
                     <h1 className = 'text-center py-2 font-bold text-black text-[1.4rem] md:text-[1.5rem] lg:text-[1.7rem] border-b-1 border-[#808080] '>Contact Information</h1>
-                      <div className = 'md:p-6 p-4 flex flex-col gap-5 '>
+                      <div className = 'md:p-6 p-4 flex flex-col gap-6 '>
                           <div>
                               <p className = 'mb-2 font-semibold text-black text-base '>Phone</p>
                               <span className = 'font-medium text-base text-[#808080] '>+234-7065051731</span>
