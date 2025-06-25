@@ -3,6 +3,9 @@ import workground from '../assets/workback.png';
 import Prefoot from '../components/Prefooter';
 import { workstuff } from '../data';
 import Impact from '../components/Imapct';
+import Resource from '../components/Resource';
+import Testimonial from '../components/Testimonial';
+
 
 
 const OurWork = () => {
@@ -46,11 +49,11 @@ const OurWork = () => {
             <section className = 'py-1 bg-[#EDF7EE]'>
               <Impact/>
             </section>
-
+            
             {/*  */}
-
             <section>
-
+                <Resource/>
+                <Testimonial/>
             </section>
               <Prefoot/>
             </section>
