@@ -46,6 +46,18 @@ import image30 from './assets/icon-park-outline_data-file.svg';
 import image31 from './assets/pepicons-pop_chain.svg';
 import image32 from './assets/tabler_ai.svg';
 
+// =================================================================
+
+import image33 from './assets/mdi_monitor-smartphone-star.svg'
+import image34 from './assets/ri_signal-tower-fill.svg';
+import image35 from './assets/icon-park-outline_market-analysis.svg';
+import image36 from './assets/oui_training.svg';
+import image37 from './assets/healthicons_agriculture-outline.svg';
+import image38 from './assets/tabler_ai (2).svg';
+
+// ===================================================================
+
+
 export const nav = [
     {
         id: 1,
@@ -424,5 +436,48 @@ export const aboutswipes = [
     image: image31,
     title: 'Community & Support:',
     word: 'A network for knowledge sharing and expert advice.',
+  },
+]
+
+
+
+
+
+export const workstuff = [
+  {
+    id: 1,
+    image: image33,
+    title: 'Smart Farming Tools',
+    words: "We develop mobile-first tools to provide real-time weather alerts, planting ti..",
+  },
+  {
+    id: 2,
+    image: image34,
+    title: 'Precision Agriculture',
+    words: "Using drones, IoT sensors, and AI, we help farmers optimize inputs, reduce w..",
+  },
+  {
+    id: 3,
+    image: image35,
+    title: 'Market Access & Funds',
+    words: "We connect smallholder farmer to credit, insurance, and marketplaces to ensure...",
+  },
+  {
+    id: 4,
+    image: image36,
+    title: 'Training & Advisory',
+    words: "Digital guides and in-person support equip farmers with the skills to adopt modern...",
+  },
+  {
+    id: 5,
+    image: image37,
+    title: 'Sustainable Agriculture',
+    words: "Our platform supports regenerative farming, organic inputs, and enviro...",
+  },
+  {
+    id: 6,
+    image: image38,
+    title: 'Agri-Data Intelligence',
+    words: "We turn farm data into actionable insights - helping farmers make sma...",
   },
 ]
