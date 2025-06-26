@@ -101,7 +101,7 @@ const Nav = () => {
                                    )
                                 })}
                             </div>
-                             <div className = ' mt-5 mb-2  px-3 '>
+                             <div className = ' mt-5 mb-1  px-3 '>
                                  <Link to = '/contactus'><button className = 'font-medium text-base text-[#FFFFFF] bg-[#4CAF50] rounded-full py-2  w-full'>Contact Us</button></Link>
                              </div>
                        </div>
