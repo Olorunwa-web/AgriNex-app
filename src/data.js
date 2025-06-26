@@ -74,12 +74,6 @@ export const nav = [
         head: "Our Work",
         path: '/ourwork',
     },
-    {
-        id: 4,
-        head: "Contact Us",
-        path: '/contactus',
-    },
-
 ]
 
 

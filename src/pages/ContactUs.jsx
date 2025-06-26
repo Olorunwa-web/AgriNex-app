@@ -52,34 +52,7 @@ const ContactUs = () => {
         );
       };
   
-    // const sendEmail = (e) => {
-    //   e.preventDefault();
-  
-    //   emailjs
-    //     .sendForm(
-    //       import.meta.env.VITE_SERVICE_KEY,
-    //       import.meta.env.VITE_TEMPLATE_KEY,
-    //       form.current,
-    //     )
-    //     .then(
-    //       () => {
-    //         setModal({
-    //           show: true,
-    //           success: true,
-    //           message: 'Your message has been sent successfully!',
-    //         });
-    //         form.current.reset();
-    //       },
-    //       () => {
-    //         setModal({
-    //           show: true,
-    //           success: false,
-    //           message: 'Failed to send your message. Please try again later.',
-    //         });
-    //       }
-    //     );
-    // };
-    
+
 
     return (
         <>

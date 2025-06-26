@@ -65,9 +65,10 @@ const Nav = () => {
                           })}
                       </div>
                    </div>
-                   <div className = 'hidden md:flex gap-2  '>
-                       <Link to = '/auth/signin'><button className = 'font-medium text-sm bg-[#FFFFFF]  py-[8px] px-[15px] '>Sign In</button></Link>
-                       <Link to = '/auth/signup'><button className = 'font-medium text-sm text-[#FFFFFF] bg-[#4CAF50] rounded-[56px] py-[8px] px-[14px] '>Sign Up</button></Link>
+                   <div className = 'hidden md:block gap-2  '>
+                       <Link to = '/contactus'><button className = 'font-medium text-sm text-white bg-[#4CAF50] rounded-full  py-[8px] px-[14px] '>Contact Us</button></Link>
+                       {/* <Link to = '/auth/signin'><button className = 'font-medium text-sm bg-[#FFFFFF]  py-[8px] px-[15px] '>Sign In</button></Link>
+                       <Link to = '/auth/signup'><button className = 'font-medium text-sm text-[#FFFFFF] bg-[#4CAF50] rounded-[56px] py-[8px] px-[14px] '>Sign Up</button></Link> */}
                    </div>
                    <div className = 'md:hidden '>
                       <div  className =' w-full transition-all duration-300' >
@@ -100,9 +101,8 @@ const Nav = () => {
                                    )
                                 })}
                             </div>
-                             <div className = ' mt-2 flex flex-col gap-3 px-3 '>
-                                 <Link to = '/auth/signin'><button className = 'font-medium text-base bg-[#FFFFFF] py-2 w-full'>Sign In</button></Link>
-                                 <Link to = '/auth/signup'><button className = 'font-medium text-base text-[#FFFFFF] bg-[#4CAF50] rounded-full py-2  w-full'>Sign Up</button></Link>
+                             <div className = ' mt-4 mb-2  px-4 '>
+                                 <Link to = '/contactus'><button className = 'font-medium text-base text-[#FFFFFF] bg-[#4CAF50] rounded-full py-2  w-full'>Contact Us</button></Link>
                              </div>
                        </div>
                       )}
