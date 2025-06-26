@@ -132,13 +132,6 @@ const ContactUs = () => {
                             <div className = 'flex justify-center w-full'>
                                 <img src= {modal.success ? success : failed } alt="" className = 'w-[45px]'/>
                             </div>
-                          {/* <h2
-                            className={`text-lg font-bold ${
-                              modal.success ? 'text-green-600' : 'text-red-600'
-                            }`}
-                          >
-                            {modal.success ? 'Success' : 'Error'}
-                          </h2> */}
                           <p className="mt-2 font-medium text-base text-gray-700">{modal.message}</p>
                           <button
                             onClick={() => setModal({ ...modal, show: false })}
@@ -151,7 +144,7 @@ const ContactUs = () => {
                     )}
 
                 </section>
-                <section className = ' w-full md:w-full lg:w-2/5 flex flex-col  gap-4 justify-between'>
+                <section className = ' w-full md:w-full lg:w-2/5 flex flex-col gap-4 justify-between'>
                   <section className = 'border-1  border-[#808080] rounded-[20px]'>
                     <h1 className = 'text-center py-2 font-bold text-black text-[1.4rem] md:text-[1.5rem] lg:text-[1.7rem] border-b-1 border-[#808080] '>Contact Information</h1>
                       <div className = 'md:p-6 p-4 flex flex-col gap-6 '>
