@@ -101,7 +101,7 @@ const ContactUs = () => {
 
                     {modal.show && (
                         <div className="fixed inset-0 z-50 flex items-center justify-center px-5 md:px-0 bg-black/70 ">
-                        <div className="bg-white rounded-xl shadow-lg p-6 w-full max-w-md text-center">
+                          <div className="bg-white rounded-xl shadow-lg p-6 w-full max-w-md text-center">
                             <div className = 'flex justify-center w-full'>
                                 <img src= {modal.success ? success : failed } alt="" className = 'w-[45px]'/>
                             </div>
