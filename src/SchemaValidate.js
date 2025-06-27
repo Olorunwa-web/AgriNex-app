@@ -24,7 +24,7 @@ export const contactSchema = yup
 .object({
     email: yup.string().required('email is required').email("invalid email format"),
     name: yup.string().required("name is required"),
-    mobileNumber: yup.string().required("mobile number is required").max(10, "max lenght of phone number should be at least 10"),
+    mobileNumber: yup.string().required("mobile number is required").max(11, "max lenght of phone number should be at least 10"),
     description: yup.string().required("message is required"),
 })
 .required()
