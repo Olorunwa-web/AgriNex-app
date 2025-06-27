@@ -66,7 +66,7 @@ const Nav = () => {
                       </div>
                    </div>
                    <div className = 'hidden md:block gap-2  '>
-                       <Link to = '/contactus'><button className = 'font-medium text-sm text-white bg-[#4CAF50] rounded-full  py-[8px] px-[14px] '>Contact Us</button></Link>
+                       <Link to = '/contactus'><button className = 'font-medium text-sm text-white bg-[#4CAF50] rounded-full  py-[8px] px-[15px] '>Contact Us</button></Link>
                        {/* <Link to = '/auth/signin'><button className = 'font-medium text-sm bg-[#FFFFFF]  py-[8px] px-[15px] '>Sign In</button></Link>
                        <Link to = '/auth/signup'><button className = 'font-medium text-sm text-[#FFFFFF] bg-[#4CAF50] rounded-[56px] py-[8px] px-[14px] '>Sign Up</button></Link> */}
                    </div>
