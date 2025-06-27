@@ -23,7 +23,7 @@ const OurWork = () => {
             <section className = 'my-7 container w-11/12 max-w-8xl mx-auto'>
                 <p className = ' text-center font-normal text-[#808080] text-base mb-1'>HOW WE MAKE IT HAPPEN</p>
                 <h1 className = 'text-center text-[1.4rem] md:text-[1.5rem] lg:text-[1.7rem] font-bold mb-4 text-[#0D0D0D]'>What We Do</h1>
-                <section className = 'py-8'>
+                <section className = 'py-10'>
                     <div className = 'flex flex-wrap gap-8 justify-between '>
                         {workstuff.map((work) =>{
                             return (

@@ -42,7 +42,7 @@ const Nav = () => {
 
     return (
         <>
-           <nav className = 'fixed left-1/2 top-0 containe w-11/12 max-w-8xl md:mt-7 flex flex-col mt-5 -translate-x-1/2 bg-white bg-background/20 rounded-3xl md:rounded-full z-50 backdrop-blur-lg '>
+           <nav className = 'fixed left-1/2 top-0 containe w-11/12 max-w-8xl md:mt-7 flex flex-col mt-6 -translate-x-1/2 bg-white bg-background/20 rounded-3xl md:rounded-full z-50 backdrop-blur-lg '>
               <section className = 'w-full flex justify-between items-center mx-auto px-4 md:px-5 md:py-3 py-2'>
                    <NavLink to = '/' className = 'w-[85px] md:w-[100px]'> 
                        <img src={agrilogo} alt="" className = 'w-full'/>

@@ -9,12 +9,16 @@ import Resource from '../components/Resource';
 import Testimonial from '../components/Testimonial';
 import Faq from '../components/Faq';
 import Prefoot from '../components/Prefooter';
-
+import  { motion } from 'framer-motion'
 
 const Home = () => {
     return (
         <>
-            <section className ="bg-cover py-34 md:py-40  lg:py-35 xl:py-43 h-full max-h-full " style = {{ backgroundImage: `url(${homebackground})`}}>
+            <motion.section className ="bg-cover py-34 md:py-40  lg:py-35 xl:py-43 h-full max-h-full " style = {{ backgroundImage: `url(${homebackground})`}} 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}               
+              transition = {{ delay: 0.3, duration: 0.8, ease: 'easeInOut'}}
+            >
                 <section className = 'container w-11/12 max-w-8xl mx-auto'>
                     <div className = 'flex flex-col gap-y-6'>
                         <div className = ' w-full md:w-[600px] lg:w-[770px] xl:w-[700px]'>
@@ -25,7 +29,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-            </section>
+            </motion.section>
 
             {/*  */}
 
