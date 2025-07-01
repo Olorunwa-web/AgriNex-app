@@ -86,7 +86,7 @@ const Funding = () => {
                                </div>
                                <div className = 'flex flex-col gap-1'>
                                   <label htmlFor="" className = 'font-normal text-black text-sm'>Funding Purpose *</label>
-                                  <select name="fundingpurpose" id=""  className = 'w-full bg-white border-1 border-[#808080] rounded-lg py-2 focus:outline focus:outline-[#4CAF50] text-base font-normal text-[#808080] px-4 ' {...register("fundingpurpose")}>
+                                  <select name="fundingpurpose" id=""  className = 'w-full bg-white border-1 border-[#808080] rounded-lg md:py-2 py-3  focus:outline focus:outline-[#4CAF50] text-base font-normal text-[#808080] px-4 ' {...register("fundingpurpose")}>
                                     <option value="Business Expansion" className = 'text-base font-normal text-black'>Business Expansion</option>
                                     <option value="Equipment Purchase" className = 'text-base font-normal text-black'>Equipment Purchase</option>
                                     <option value="Research & Development" className = 'text-base font-normal text-black'>Research & Development</option>
