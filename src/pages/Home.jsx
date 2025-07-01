@@ -1,5 +1,6 @@
 import React ,{useState} from 'react';
-import { useForm } from "react-hook-form"
+import { useForm } from "react-hook-form";
+import { Link } from 'react-router-dom';
 import { yupResolver } from "@hookform/resolvers/yup";
 import homebackground from '../assets/Frame 1171278702.jpg';
 import Marquees from '../components/Marquee';
@@ -43,8 +44,8 @@ const Home = () => {
                             <h1 className = 'font-bold text-[1.75rem] md:text-[40px] lg:text-[2.8rem] xl:text-[3.1rem] text-white leading-[40px] md:leading-[57px] lg:leading-[64px] xl:leading-[69px] '>Utilization of Technology to Empower Farmers Across Africa Agriculture</h1>
                         </div>
                         <div>
-                            <button onClick={openModal} className = ' bg-[#4CAF50] rounded-[56px] px-[20px] md:px-[20px] py-3 md:py-[12px]  text-base font-semibold text-white '>Apply for Funding</button>
-                            { isOpen && (
+                            <Link to = '/applyfunding'><button  className = ' bg-[#4CAF50] rounded-[56px] px-[20px] md:px-[20px] py-3 md:py-[12px]  text-base font-semibold text-white '>Apply for Funding</button></Link>
+                            {/* { isOpen && (
                                 <div className="fixed inset-0 z-50 flex items-center justify-center px-5 md:px-0 bg-black/70 ">
                                     <div className="bg-white rounded-lg shadow-lg max-w-lg w-full">
                                         <div className = 'border-b-1 border-[#808080]'>
@@ -91,7 +92,7 @@ const Home = () => {
                                        </div>
                                     </div>
                                 </div> 
-                            )}
+                            )} */}
                         </div>
                     </div>
                 </section>

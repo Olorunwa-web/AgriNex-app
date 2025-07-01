@@ -1,18 +1,19 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useForm } from "react-hook-form"
 import { yupResolver } from "@hookform/resolvers/yup";
 import emailjs from '@emailjs/browser';
 import contactback from '../assets/image 1.png';
 import Iframe from 'react-iframe';
-import {contactSchema} from '../SchemaValidate'
+import {contactSchema} from '../SchemaValidate';
 import success from '../assets/check_circle_50dp_4CAF50_FILL0_wght400_GRAD0_opsz48.svg';
-import failed from '../assets/fail-svgrepo-com.svg'
+import failed from '../assets/fail-svgrepo-com.svg';
 
 
 
 const ContactUs = () => {
 
     
+    const modalRef = useRef();
     const form = useRef();
     const [modal, setModal] = useState({ show: false, success: false, message: '' });
 
@@ -51,7 +52,19 @@ const ContactUs = () => {
           }
         );
       };
-  
+
+
+      const handleOutsideClick = () => {
+        setModal({ show: false, message: '', success: false });
+      };
+    
+      useEffect(() => {
+        if (modal.show) {
+          document.body.style.overflow = 'hidden';
+        } else {
+          document.body.style.overflow = '';
+        }
+      }, [modal.show]);
 
 
     return (
@@ -100,18 +113,12 @@ const ContactUs = () => {
                     {/*  */}
 
                     {modal.show && (
-                        <div className="fixed inset-0 z-50 flex items-center justify-center px-5 md:px-0 bg-black/70 ">
-                          <div className="bg-white rounded-xl shadow-lg p-6 w-full max-w-md text-center">
+                        <div onClick={handleOutsideClick} className="fixed inset-0 z-50 flex items-center justify-center px-5 md:px-0 bg-black/70 ">
+                          <div onClick={(e) => e.stopPropagation()} className="bg-white rounded-xl shadow-lg p-6 w-full max-w-md text-center">
                             <div className = 'flex justify-center w-full'>
                                 <img src= {modal.success ? success : failed } alt="" className = 'w-[45px]'/>
                             </div>
                           <p className="mt-2 font-medium text-base text-gray-700">{modal.message}</p>
-                          <button
-                            onClick={() => setModal({ ...modal, show: false })}
-                            className="mt-4 bg-[#FF0000] hover:bg-red-500/70 transition duration-300 text-white font-normal text-sm px-6 py-2 rounded-full"
-                          >
-                            Close
-                          </button>
                         </div>
                       </div>
                     )}

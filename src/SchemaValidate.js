@@ -37,6 +37,6 @@ export const fundSchema = yup
     fullname: yup.string().required("name is required"),
     email: yup.string().required('email is required').email("invalid email format"),
     fundingpurpose: yup.string().required("pick an option").oneOf(["Business Expansion", "Equipment Purchase", "Research & Development", "Working Capital", "Technology Adoption", "Others" ], "You must select an option!"),
-    description: yup.string().required("message is required"),
+    description: yup.string().required("description is required"),
 })
 .required()

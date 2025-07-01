@@ -14,8 +14,10 @@ const Marquee = () => {
         <div className = 'w-full '>
           <Splide  options = {{  type: "loop",
           perPage: 5,
-          gap: "4rem",
+          gap: "6rem",
           speed: 7000, 
+          easing: 'linear',
+          interval: 0, 
           pauseOnHover: false,
           arrows: false,
           pagination: false,
