@@ -69,7 +69,7 @@ const Funding = () => {
                 <div className = ' bg-white  mx-5 my-10 md:my-0 md:mx-0 max-w-lg w-full'>
                     <div className = 'borde border-[#808080]'>
                         <div className = 'flex  py-3 justify-between items-center'>
-                             <h2 className="text-xl text-[#4CAF50] font-semibold ">Apply for Funding*</h2>
+                             <h2 className="md:text-xl text-2xl  text-[#4CAF50] font-semibold ">Apply for Funding*</h2>
                         </div>
                     </div>
                     <div className = 'px- py-4'>
