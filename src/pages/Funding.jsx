@@ -103,7 +103,7 @@ const Funding = () => {
                                     <p className = 'font-medium text-xs lg:-mt-px mt-[2px]  text-[#EC5E5E]'>{errors.description?.message}</p>
                                 </div>
                                 <div className = 'flex justify-center'>
-                                   <button type = 'submit' disabled = {isSubmitting} className = ' w-full text-sm text-white font-normal  bg-[#4CAF50] px-4 py-2 rounded-md '>{isSubmitting ? 'Sending....' : 'Submit'}</button>
+                                   <button type = 'submit' disabled = {isSubmitting} className = ' w-full text-sm text-white font-normal  bg-[#4CAF50] px-4 py-3 rounded-full '>{isSubmitting ? 'Sending....' : 'Submit'}</button>
                                 </div>
                           </form>
                           {modal.show && (
